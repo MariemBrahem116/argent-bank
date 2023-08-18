@@ -1,0 +1,19 @@
+.loginButton{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-color: #00bc77;
+    background-color: #00bc77;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: white;
+    border:none;
+}
+.loginButton:hover {
+    transition: 0.2s;
+    background: #005834;
+}

@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+ }
+
+
+ .headerLink {
+    display: flex;
+    align-items: center;
+ }
+
+ .headerLogo {
+    max-width: 100%;
+    width: 200px;
+ }
+
+ .nav {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .navItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+ }
+ .navItemText {
+    margin: 0;
+    margin-left: 0.3rem;
+ }
+ .navItemText:hover {
+    text-decoration: underline;
+ }

@@ -1,0 +1,49 @@
+.loginWrapper {
+   flex: 1;
+   box-sizing: border-box;
+   padding: 3rem;
+   background-color: #12002b;
+}
+
+.loginContent {
+   box-sizing: border-box;
+   background-color: white;
+   width: 300px;
+   margin: 0 auto;
+   padding: 2rem;
+}
+
+.login_icon {
+   size: 5rem;
+}
+
+.inputLoginWrapper {
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   margin-bottom: 1rem;
+}
+
+.inputLoginWrapper input {
+   padding: 3px;
+   font-size: 1.2rem;
+}
+
+.inputLoginWrapper label {
+   font-weight: bold;
+}
+
+.rememberWrapper {
+   display: flex;
+}
+
+.rememberWrapper label {
+   margin-left: 0.25rem;
+}
+
+.errorMessage {
+   margin-top: 10px;
+   color: red;
+   font-size: 16px;
+   font-weight: bold;
+}
